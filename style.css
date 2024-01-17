@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  position: relative;
+  top: 50px;
+  border-radius: 10px;
+  width: 1000px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.5);
+  
+}
+
+.logo {
+  padding-top: 20px;
+  width: 100px;
+  display: block;
+  width: 20%;
+  margin: auto;
+}
+
+.titolo {
+  text-align: center;
+  font-size: 30px;
+  color: #00dd00;
+}
+
+.barra {
+  background-color: #00dd00;
+  width: 90%;
+  height: 30px;
+  margin: auto;
+  text-align: center;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+.row, .statocarica {
+  display: inline-block;
+  color: white;
+  margin-left: 50px;
+}
+
+
+span {
+  font-size: 20px;
+}
+
+.row > p{
+  color: white;
+  font-size: 10px; 
+}
+
+.barracarica_gino {
+  height: 20px;
+  width: 330px;
+  background-color: orange;
+  border-radius: 3px;
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
+
+.barracarica_mike {
+  height: 20px;
+  width: 500px;
+  background-color:#00dd00;
+  border-radius: 3px;
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
+
+.barracarica_fede {
+  height: 20px;
+  width: 200px;
+  background-color: red;
+  border-radius: 3px;
+  margin-left: 50px;
+}
+
+
+
+
+
